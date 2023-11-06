@@ -243,7 +243,7 @@
       "url": "https://packages.unity.com"
     },
     "com.valvesoftware.unity.openvr": {
-      "version": "file:C:/Users/XR-Zone/Downloads/com.valvesoftware.unity.openvr-1.1.4/com.valvesoftware.unity.openvr-1.1.4/package",
+      "version": "file:../com.valvesoftware.unity.openvr-1.1.4/com.valvesoftware.unity.openvr-1.1.4/package",
       "depth": 0,
       "source": "local",
       "dependencies": {
