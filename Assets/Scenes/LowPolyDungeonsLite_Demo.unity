@@ -7924,18 +7924,18 @@ MonoBehaviour:
   head:
     vrTarget: {fileID: 1172499604}
     ikTarget: {fileID: 107560897}
-    trackingPositionOffset: {x: 0, y: 0, z: 0}
+    trackingPositionOffset: {x: 0, y: -0.1, z: -0.08}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
     vrTarget: {fileID: 968258447}
     ikTarget: {fileID: 1898960584}
-    trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 0, y: 0, z: 0}
+    trackingPositionOffset: {x: -0.04, y: -0.015, z: -0.12}
+    trackingRotationOffset: {x: -190, y: -85.2, z: -76}
   rightHand:
     vrTarget: {fileID: 487068662}
     ikTarget: {fileID: 1737142022}
-    trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 0, y: 0, z: 0}
+    trackingPositionOffset: {x: 0.04, y: -0.02, z: -0.13}
+    trackingRotationOffset: {x: 13.61, y: -93.9, z: -102.1}
   turnSmoothness: 0
   ikHead: {fileID: 107560897}
   headBodyOffset: {x: 0, y: -1.64, z: 0}
