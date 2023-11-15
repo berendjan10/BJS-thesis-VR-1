@@ -7818,7 +7818,7 @@ PrefabInstance:
     - target: {fileID: 6070482321239056212, guid: 1834c3646cce29947ad4ef4c24f24996,
         type: 3}
       propertyPath: m_Name
-      value: Avatar (1)
+      value: Avatar self coded sit
       objectReference: {fileID: 0}
     - target: {fileID: 6070482321239056212, guid: 1834c3646cce29947ad4ef4c24f24996,
         type: 3}
