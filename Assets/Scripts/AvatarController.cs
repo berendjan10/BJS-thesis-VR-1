@@ -37,6 +37,7 @@ public class AvatarController : MonoBehaviour
         head.VRMapping();
         leftHand.VRMapping();
         rightHand.VRMapping();
+
     }
 
 }

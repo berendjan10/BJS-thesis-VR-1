@@ -4835,6 +4835,10 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 375
       objectReference: {fileID: 0}
+    - target: {fileID: 8100000, guid: 4b650a383c3760f449b65ff48bccdd5f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4b650a383c3760f449b65ff48bccdd5f, type: 3}
       propertyPath: _trackingOriginType
       value: 1
