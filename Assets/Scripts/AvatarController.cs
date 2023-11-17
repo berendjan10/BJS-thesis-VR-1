@@ -58,8 +58,5 @@ public class AvatarController : MonoBehaviour
         Quaternion spineRotation = Quaternion.LookRotation(spineDirection, Vector3.forward);
         spine.rotation = spineRotation * Quaternion.Euler(hipRotationOffset);
 
-        //// method 2
-        //float spine_length = Vector3.Distance(head.ikTarget.position, hipAnchor.position);
-        //spine.rotation = Quaternion.Euler(Mathf.Asin((head.ikTarget.position.x - hipAnchor.position.x) / spine_length), 0, Mathf.Asin((head.ikTarget.position.z - hipAnchor.position.z) / spine_length));
     }
 }
