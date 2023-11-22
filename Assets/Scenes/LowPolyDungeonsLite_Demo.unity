@@ -9190,7 +9190,7 @@ MonoBehaviour:
   hipAnchor: {fileID: 1943845139}
   hipPosition: {fileID: 2088153865}
   spine: {fileID: 2088153864}
-  hipRotationOffset: {x: 0, y: 90, z: 90}
+  hipRotationOffset: {x: 180, y: 90, z: 90}
   headReference: {fileID: 1560029781}
 --- !u!114 &2088153909
 MonoBehaviour:
