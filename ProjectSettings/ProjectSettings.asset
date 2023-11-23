@@ -46,7 +46,7 @@ PlayerSettings:
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
-  m_StereoRenderingPath: 0
+  m_StereoRenderingPath: 2
   m_ActiveColorSpace: 1
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
@@ -510,7 +510,9 @@ PlayerSettings:
       m_SubKind: 
   m_BuildTargetBatching: []
   m_BuildTargetShaderSettings: []
-  m_BuildTargetGraphicsJobs: []
+  m_BuildTargetGraphicsJobs:
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_GraphicsJobs: 0
   m_BuildTargetGraphicsJobMode: []
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: iOSSupport
@@ -518,6 +520,9 @@ PlayerSettings:
     m_Automatic: 1
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
+    m_Automatic: 0
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 02000000
     m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
@@ -803,7 +808,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: GLTFAST;READY_PLAYER_ME
+    Android: GLTFAST;READY_PLAYER_ME;USE_INPUT_SYSTEM_POSE_CONTROL
     EmbeddedLinux: GLTFAST;READY_PLAYER_ME
     GameCoreScarlett: GLTFAST;READY_PLAYER_ME
     GameCoreXboxOne: GLTFAST;READY_PLAYER_ME
@@ -813,10 +818,10 @@ PlayerSettings:
     PS5: GLTFAST;READY_PLAYER_ME
     QNX: GLTFAST;READY_PLAYER_ME
     Stadia: GLTFAST;READY_PLAYER_ME
-    Standalone: VIVE_STEREO_OVR;GLTFAST;READY_PLAYER_ME
+    Standalone: VIVE_STEREO_OVR;GLTFAST;READY_PLAYER_ME;USE_INPUT_SYSTEM_POSE_CONTROL
     VisionOS: GLTFAST;READY_PLAYER_ME
     WebGL: GLTFAST;READY_PLAYER_ME
-    Windows Store Apps: GLTFAST;READY_PLAYER_ME
+    Windows Store Apps: GLTFAST;READY_PLAYER_ME;USE_INPUT_SYSTEM_POSE_CONTROL
     XboxOne: GLTFAST;READY_PLAYER_ME
     iPhone: GLTFAST;READY_PLAYER_ME
     tvOS: GLTFAST;READY_PLAYER_ME
